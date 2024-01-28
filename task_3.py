@@ -1,6 +1,6 @@
 import csv
 
-f = open('C:/Users/olegs/Downloads/students (1).csv', encoding='utf-8')
+f = open('resources/students_to_load.csv', encoding='utf-8')
 reader = list(csv.reader(f))
 countA = int(reader[-1][0])
 

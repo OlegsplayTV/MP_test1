@@ -4,7 +4,7 @@ import operator
 
 def task_1():
     # Открытие файла и добавление начальных переменных
-    f = open('C:/Users/olegs/Downloads/students (1).csv', encoding='utf-8')
+    f = open('resources/students_to_load.csv', encoding='utf-8')
     CountOfScore = 0
     fsr2 = 0
 
